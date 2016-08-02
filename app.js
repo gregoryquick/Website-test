@@ -14,6 +14,18 @@ var main = function() {
     alert("You clicked an image!");
     // $('.spambutton').animate({left: "2085px"}, 200);
   });
+
+  $('.lpfgt1').click(function(){
+    $(this).toggleClass('lpfgt2');
+  });
+
+  $(document).keypress(function(event){
+    if(event.which <= 122 && event.which >= 65){
+      alert("You pressed letter key!");
+    }else{
+    alert("You pressed a button!");
+    }
+  });
 };
 
 // while(holder){
