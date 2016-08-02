@@ -21,9 +21,9 @@ var main = function() {
 
   $(document).keypress(function(event){
     if(event.which <= 122 && event.which >= 65){
-      alert("You pressed letter key!");
+      alert("You pressed letter key!\n"+ event.which);
     }else{
-    alert("You pressed a button!");
+    alert("You pressed a button!\n"+ event.which);
     }
   });
 };
