@@ -1,29 +1,18 @@
-body {
-  left: 0;
+html, body {
+  font-family: sans-serif;
   margin: 0;
-  overflow: hidden;
-  position: relative;
-}
-
-/*.spambutton {
-  left: -285px;
+  width: 100%;
   height: 100%;
-  position: fixed;
-  width: 285px;
-}*/
-
-.lpfgt1 {
-  src="7978360.png";
-  left: 0;
-  height: 285px;
-  position: fixed;
-  width: 285px;
 }
 
-.lpfgt1 {
-  src="7978361.pdf";
-  left: 0;
-  height: 285px;
-  position: fixed;
-  width: 285px;
+.menu {
+  background-color: #FFEE00;
+  padding-right: 0px;
+  height: 100;
+  width: 100%;
+}
+
+.listButton {
+  height: 100;
+  width: 100;
 }
