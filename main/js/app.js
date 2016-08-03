@@ -1,9 +1,10 @@
 var main = function() {
   $('.menuItem').click(function(){
-    if($(this).text() === 'Home') {
-      window.location.href = 'index.html';
+    var clicked = $(this).text();
+    if(clicked === 'Home') {
+      window.location.href = '../pages/index.html';
     }else{
-      window.location.href = 'pages/' + $(this).text() +'.html';
+      window.location.href = '../pages/'+clicked+'.html';
     };
   });
 };
