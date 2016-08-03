@@ -19,13 +19,19 @@ h2 {
   font-size: 2.6rem;
 }
 
-div {
-  padding-right: 30px;
-  height: 100%;
-  width: 100%;
-}
-
 video {
   background-color: #000000;
   border: 2px solid black;
+}
+
+.menu {
+  background-color: #FFEE00;
+  padding-right: 0px;
+  height: 100;
+  width: 100%;
+}
+
+.listButton {
+  height: 100;
+  width: 100;
 }
