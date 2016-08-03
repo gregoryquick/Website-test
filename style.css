@@ -22,7 +22,10 @@ html, body {
 }
 
 .menuItem {
+  display: inline-block;
+  font-size: 2rem;
   color: white;
-  padding: 0rem;
+  padding-top: 1.8rem;
+  padding-left: 2rem;
   margin-top: 0rem;
 }
