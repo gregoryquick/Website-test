@@ -5,25 +5,6 @@ html, body {
   height: 100%;
 }
 
-h1 {
-  font-size: 48px;
-}
-
-p {
-  max-width: 65%;
-  min-width: 500px;
-}
-
-h2 {
-  text-align: center;
-  font-size: 2.6rem;
-}
-
-video {
-  background-color: #000000;
-  border: 2px solid black;
-}
-
 .menu {
   background-color: #FFEE00;
   padding-right: 0px;
