@@ -6,14 +6,23 @@ html, body {
 }
 
 .menu {
-  background-color: #FFEE00;
+  margin: 0rem;
+  border-bottom: .1rem solid #AAAAAA;
+  background-color: #111;
   padding-right: 0rem;
   height: 6rem;
   width: 100%;
 }
 
 .listButton {
+  margin: 0rem;
   float: right;
   height: 6rem;
   width: 6rem;
+}
+
+.menuItem {
+  color: white;
+  padding: 0rem;
+  margin-top: 0rem;
 }
