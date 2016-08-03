@@ -1,6 +1,8 @@
 var main = function() {
   $('.menuItem').click(function(){
-    window.location.href = 'index.html';
+    if($(this).text() === 'Home') {
+      window.location.href = 'index.html';
+    };
   });
 };
 
