@@ -1,18 +1,18 @@
 html, body {
   font-family: sans-serif, serif, monospace;
-  margin: 0;
+  margin: 0rem;
   width: 100%;
   height: 100%;
 }
 
 .menu {
   background-color: #FFEE00;
-  padding-right: 0px;
-  height: 100;
+  padding-right: 0rem;
+  height: 6rem;
   width: 100%;
 }
 
 .listButton {
-  height: 100;
-  width: 100;
+  height: 6rem;
+  width: 6rem;
 }
