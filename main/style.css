@@ -29,3 +29,13 @@ html, body {
   padding-left: 2rem;
   margin-top: 0rem;
 }
+
+.dropdown1 {
+  margin-top: -.05rem;
+  border-bottom: 0.1rem solid #000;
+  border-left: 0.1rem solid #000;
+  background-color: #F00;
+  width: 6rem;
+  height: 14rem;
+  float: right;
+}

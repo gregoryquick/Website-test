@@ -1,12 +1,25 @@
+var menu = function() {
+  //Menu clode
+    //Toggle deactivating
+    $('.dropdown1').slideToggle();
+    //normal menu item click handleing
+    $('.menuItem').click(function(){
+      var clicked = $(this).text();
+      if(clicked === 'Home') {
+        window.location.href = '../pages/index.html';
+      }else{
+        window.location.href = '../pages/'+clicked+'.html';
+      };
+    });
+    //toggle menu toggleing
+    $('.listButton').click(function(){
+      $('.dropdown1').slideToggle();
+    });
+};
+
 var main = function() {
-  $('.menuItem').click(function(){
-    var clicked = $(this).text();
-    if(clicked === 'Home') {
-      window.location.href = '../pages/index.html';
-    }else{
-      window.location.href = '../pages/'+clicked+'.html';
-    };
-  });
+  //runs menu clode
+  menu();
 };
 
 $(document).ready(main);
