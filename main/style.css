@@ -33,6 +33,7 @@ html, body {
 .dropdown1 {
   margin-top: -.05rem;
   border-bottom: 0.1rem solid #000;
+  display: none;
   border-left: 0.1rem solid #000;
   background-color: #F00;
   width: 6rem;

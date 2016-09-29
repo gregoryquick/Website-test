@@ -1,7 +1,5 @@
 var menu = function() {
   //Menu clode
-    //Toggle deactivating
-    $('.dropdown1').slideToggle();
     //normal menu item click handleing
     $('.menuItem').click(function(){
       var clicked = $(this).text();
