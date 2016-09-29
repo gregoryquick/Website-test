@@ -30,7 +30,7 @@ html, body {
   margin-top: 0rem;
 }
 
-.dropdown1 {
+.dropdown1[loggedIn="false"] {
   margin-top: -.05rem;
   border-bottom: 0.1rem solid #000;
   display: none;
@@ -39,4 +39,19 @@ html, body {
   width: 6rem;
   height: 14rem;
   float: right;
+}
+
+.dropdown1[loggedIn="true"] {
+  margin-top: -.05rem;
+  border-bottom: 0.1rem solid #000;
+  display: none;
+  border-left: 0.1rem solid #000;
+  background-color: #0F0;
+  width: 6rem;
+  height: 14rem;
+  float: right;
+}
+
+.dropdown1 > form > input[data="Name"]{
+  width: 2.8rem
 }
