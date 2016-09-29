@@ -1,7 +1,12 @@
+
+var varName;
+
 var toggledropdown1Mode = function(){
   var Vardropdown1 = $('.dropdown1');
   if(Vardropdown1.attr("loggedIn") === "false"){
     Vardropdown1.attr("loggedIn","true");
+    varName = $("#Name").val();
+    alert(varName);
   }else{
     Vardropdown1.attr("loggedIn","false");
   };

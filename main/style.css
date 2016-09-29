@@ -52,6 +52,6 @@ html, body {
   float: right;
 }
 
-.dropdown1 > form > input[data="Name"]{
+#Name {
   width: 2.8rem
 }
