@@ -1,3 +1,12 @@
+var toggledropdown1Mode = function(){
+  var Vardropdown1 = $('.dropdown1');
+  if(Vardropdown1.attr("loggedIn") === "false"){
+    Vardropdown1.attr("loggedIn","true");
+  }else{
+    Vardropdown1.attr("loggedIn","false");
+  };
+};
+
 var menu = function() {
   //Menu clode
     //normal menu item click handleing
